@@ -1,27 +1,34 @@
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 .Python
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# Build / dist
+*.egg-info/
+.eggs/
 dist/
 build/
-*.egg-info/
+*.egg
 
-# Model outputs (generated at runtime)
-outputs/
+# Virtual environments
+.venv/
+venv/
+ENV/
 
-# OS
-.DS_Store
-Thumbs.db
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# TensorFlow / Keras model saves
+*.h5
+*.keras
+saved_model/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
